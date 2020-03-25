@@ -5,12 +5,10 @@
 # Author: Ziv Batscha
 #-----------------------------------------------------------------------
 
-from breath import app
+from paradiselost import app
 from flask import render_template, url_for, flash, redirect, request
-from breath.forms import PoemForm
-# from breath.models import Data
-# import breath.translate
-import breath.translate as translate
+from paradiselost.forms import PoemForm
+import paradiselost.translate as translate
 
 #-----------------------------------------------------------------------
 

@@ -5,7 +5,7 @@
 # Author: Ziv Batscha
 #-----------------------------------------------------------------------
 
-from breath.language_tools import country_to_languages, countries, proportion
+from paradiselost.language_tools import country_to_languages, countries, proportion
 from google.cloud import translate_v2
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
