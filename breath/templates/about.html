@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+  <br><br>
+  <h4 class="display-4">Inspiration</h4>
+  <p class="lead">
+    This web app was created as an interactive art piece for the ‘Words as Objects’ course taught by Professor Scanlan at Princeton. <br><br>
+    The inspiration for the piece was the global nature of the COVID-19 pandemic.
+    Looking at the last few months, we can see a recurring pattern.
+    Many of us, country after country, didn’t take it seriously until it arrived on our doorstep. <br><br>
+    Maybe if we “spoke the same language” and had more empathy for people far away,
+    we might have avoided the worst of the crisis.
+    Our myopia was an expensive mistake;
+    I hope we learn from it.
+  </p> <br>
+  <h4 class="display-4">How It Works</h4>
+  <p class="lead">
+    Users can either input a url to a poem at <a href="https://www.poetryfoundation.org/poems" target="_tab" rel="noopener noreferrer">poetryfoundation.org</a> or paste a poem into the text box. <br><br>
+    Each line is translated into a language corresponding to a country impacted by this crisis.
+    The probability of a language being assigned to a line is proportional to the toll the virus has had on a given country.
+    Data is sourced from <a href="https://github.com/CSSEGISandData/COVID-19" target="_tab" rel="noopener noreferrer">https://github.com/CSSEGISandData/COVID-19.</a>
+  </p><br>
+  <h4 class="display-4">Get In Touch</h4>
+  <p class="lead">
+    If you have ideas for additional features, email Ziv Batscha at <a href="mailto:zbatscha@princeton.edu?subject=Breath" target="_tab">zbatscha@princeton.edu.</a>
+  </p><br>
+{% endblock content %}
