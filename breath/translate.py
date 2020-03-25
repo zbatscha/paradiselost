@@ -11,7 +11,6 @@ from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 import numpy as np
 import random
-import csv
 import six
 import re
 
