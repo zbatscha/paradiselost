@@ -124,6 +124,7 @@ def get_records(session):
                     global_data[country][day]['confirmed'] += int(line[day])
                     total_global[day]['confirmed'] += int(line[day])
 
+    record_count = 0
     for country, days in global_data.items():
         for day, data in days.items():
             day_field = datetime.strptime(day, '%m/%d/%y').date()
@@ -139,11 +140,12 @@ def get_records(session):
                                  confirmed_prop=confirmed_prop,
                                  deaths_prop=deaths_prop,
                                  date=recorded)
-                valid_country.country_records.append(record)
-                # session.add(record)
+                # valid_country.country_records.append(record)
+                session.add(record)
+                record_count += 1
             else:
                 print(f'(error) {country} not in db.')
-
+    print(f'Added {record_count} records to db.')
     global_data.clear()
 
 def populate_db():
@@ -156,9 +158,10 @@ def populate_db():
         session.commit()
         get_records(session)
         session.commit()
-    except:
+    except Exception as e:
+        print('rolling back')
         session.rollback()
-        raise
+        print(e)
     finally:
         session.close()
 
