@@ -28,8 +28,9 @@ def availableLanguages():
 Return the earliest and latest recorded dates.
 """
 def getMinMaxDate():
-    dates = db.session.query(Record.date).filter_by(country_id=1).all()
+    dates = db.session.query(Record.date).all()
     dates = [date[0].strftime("%Y-%m-%d") for date in dates]
+    dates = list(set(dates))
     minDate = min(dates)
     maxDate = max(dates)
     return {'minDate': minDate, 'maxDate': maxDate}
