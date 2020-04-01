@@ -27,9 +27,9 @@ def home():
             (poem, translated_poem) = translate.getTranslation(form.body.data,
                                                                form.choice.data,
                                                                form.date.data)
-    except:
+    except Exception as e:
         flash('Error translating provided poem.', 'danger')
-        print(e, stderr)
+        print(e, file=stderr)
     return render_template('home.html', poem=Markup(poem),
                             translated_poem=Markup(translated_poem),
                             dateRange=dateRange, form=form)
