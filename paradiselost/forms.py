@@ -21,7 +21,7 @@ class PoemForm(FlaskForm):
     body = TextAreaField('Paste your song, poem, or memory',  validators=[DataRequired()])
     choice = RadioField('Choose language by...  ', validators=[DataRequired()],
                         choices=[('humanToll', 'Human Toll'),
-                                 ('equal', 'Equal Likelihood')], default='deaths')
+                                 ('equal', 'Equal Likelihood')], default='humanToll')
     date = DateField('Select data source date', default=datetime.strptime(
                                 getMinMaxDate()['maxDate'], '%Y-%m-%d').date(),
                                 validators=[DataRequired()])

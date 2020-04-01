@@ -140,8 +140,7 @@ def get_records(session):
                                  confirmed_prop=confirmed_prop,
                                  deaths_prop=deaths_prop,
                                  date=recorded)
-                # valid_country.country_records.append(record)
-                session.add(record)
+                valid_country.country_records.append(record)
                 record_count += 1
             else:
                 print(f'(error) {country} not in db.')
