@@ -1,199 +1,203 @@
-Afghanistan	Persian, Pashto
-Albania	Albanian
-Algeria	Arabic
-Andorra	catalan
-Angola	Portuguese
-Antigua and Barbuda	English
-Argentina	Spanish
-Armenia	Armenian
-Australia	English
-Austria	German
-Azerbaijan	azerbaijani
-Bahamas	English
-Bahrain	Arabic
-Bangladesh	bengali
-Barbados	English
-Belarus	belarusian, Russian
-Belgium	Dutch
-Belize	English
-Benin	French
-Bhutan	Dzongkha
-Bolivia	Spanish
-Bosnia and Herzegovina	Bosnian, Croatian, Serbian
-Botswana	English
-Brazil	Portuguese
-Brunei	Malay
-Bulgaria	Bulgarian
-Burkina Faso	French
-Burundi	French
-Cambodia	Khmer
-Cameroon	French, English
-Canada	French, English
-Cabo Verde	Portuguese
-Central African Republic	French
-Chad	French, Arabic
-Chile	Spanish
-China	chinese (simplified)
-Colombia	Spanish
-Comoros	Arabic, French
-congo	French
-Costa Rica	Spanish
-cote d'ivoire	French
-Croatia	Croatian
-Cuba	Spanish
-Cyprus	Greek, Turkish
-czechia	Czech
-Denmark	Danish
-Djibouti	French, Arabic
-Dominica	English
-Dominican Republic	Spanish
-Timor-Leste	Portuguese
-Ecuador	Spanish
-Egypt	Arabic
-El Salvador	Spanish
-Equatorial Guinea	Spanish, French
-Eritrea	Arabic
-Estonia	Estonian
-Ethiopia	Amharic
-Fiji	English, Hindi
-Finland	Finnish
-France	French
-Gabon	French
-Gambia	English
-Georgia	Georgian
-Germany	German
-Ghana	English
-Greece	Greek
-Grenada	English
-Guatemala	Spanish
-Guinea	French
-Guinea-Bissau	Portuguese
-Guyana	English
-Haiti	haitian creole, French
-Honduras	Spanish
-Hungary	hungarian
-Iceland	Icelandic
-India	Hindi, English, Bengali, Gujarati, Malayalam, Marathi, Punjabi, Tamil, Telugu, Urdu, Kannada, Sindhi
-Indonesia	Indonesian
-Iran	Persian
-Iraq	Arabic, kurdish (kurmanji), Armenian
-Ireland	English, Irish
-Israel	Hebrew, Arabic, English
-Italy	Italian
-Jamaica	English
-Japan	Japanese
-Jordan	Arabic
-Kazakhstan	kazakh, Russian
-Kenya	English, Swahili
-Kiribati	English
-Korea, North	Korean
-Korea, South	Korean
-Kosovo	Albanian, Serbian
-Kuwait	Arabic
-Kyrgyzstan	Kyrgyz, Russian
-Laos	Lao
-Latvia	Latvian, Russian
-Lebanon	Arabic
-Lesotho	English, Sesotho
-Liberia	English
-Libya	Arabic
-Liechtenstein	German
-Lithuania	Lithuanian
-Luxembourg	luxembourgish, French, German
-North Macedonia	Macedonian, Albanian
-Madagascar	Malagasy, French
-Malawi	Chichewa
-Malaysia	Malay
-Maldives	Dhivehi
-Mali	French
-Malta	Maltese, English
-Marshall Islands	English
-Mauritania	Arabic, French
-Mauritius	English, French
-Mexico	Spanish
-Micronesia	English
-Moldova	Romanian
-Monaco	French
-Mongolia	Mongolian
-Montenegro	Albanian, Bosnian, Croatian, Serbian
-Morocco	Arabic
-Mozambique	Portuguese, Swahili
-Myanmar	myanmar (burmese)
-Namibia	Afrikaans, German, English
-Nauru	Nauruan
-Nepal	Nepali
-Netherlands	Dutch, Frisian
-New Zealand	English, Maori
-Nicaragua	Spanish
-Niger	French, hausa
-Nigeria	English, Hausa, Yoruba, Igbo
-Norway	norwegian
-Oman	Arabic
-Pakistan	Punjabi, Urdu
-Palau	Palauan
-Palestinian State (proposed)	Arabic, Hebrew, English
-Panama	Spanish
-Papua New Guinea	English
-Paraguay	Spanish
-Peru	Spanish
-Philippines	Filipino, English
-Poland	Polish
-Portugal	Portuguese
-Qatar	Arabic
-Romania	Romanian
-Russia	Russian
-Rwanda	swahili, French, English
-St. Kitts and Nevis	English
-saint lucia	English, French
-saint vincent and the grenadines	English, French
-Samoa	Samoan, English
-San Marino	Italian
-São Tomé and Príncipe	Portuguese
-Saudi Arabia	Arabic
-Senegal	French
-Serbia	Serbian
-Seychelles	English, French
-Sierra Leone	English
-Singapore	chinese (simplified), Malay, Tamil, English
-Slovakia	Slovak
-Slovenia	Slovenian
-Solomon Islands	English
-Somalia	Somali
-South Africa	Afrikaans, English, sesotho, Xhosa, Zulu
-South Sudan	English, Arabic
-Spain	basque, Catalan, Galician, spanish
-Sri Lanka	Sinhala, Tamil
-Sudan	Arabic
-Suriname	Dutch
-Eswatini	Swazi
-Sweden	Swedish
-Switzerland	German, French, Italian
-Syria	Arabic, Turkish, Armenian
-Taiwan	chinese (traditional)
-Tajikistan	Tajik
-Tanzania	Swahili, English
-Thailand	Thai
-Togo	French
-Tonga	Tongan
-Trinidad and Tobago	English
-Tunisia	Arabic, French
-Turkey	Turkish
-Turkmenistan	Russian, Uzbek
-Tuvalu	English
-Uganda	Swahili, English
-Ukraine	Ukrainian, Russian
-United Arab Emirates	Arabic
-United Kingdom	English, Welsh, Scots Gaelic
-US	English, Spanish
-Uruguay	Spanish
-Uzbekistan	Uzbek, Russian
-Vanuatu	English, French
-holy see	Italian, Latin
-Venezuela	Spanish
-Vietnam	Vietnamese
-Western Sahara (proposed state)	Arabic
-Yemen	Arabic
-Zambia	English
-Zimbabwe	English, Shona, Sesotho, Xhosa
-Martinique	French
-Cruise Ship
+country	languages
+afghanistan	persian, pashto
+albania	albanian
+algeria	arabic
+andorra	catalan
+angola	portuguese
+antigua and barbuda	english
+argentina	spanish
+armenia	armenian
+australia	english
+austria	german
+azerbaijan	azerbaijani
+bahamas	english
+bahrain	arabic
+bangladesh	bengali
+barbados	english
+belarus	belarusian, russian
+belgium	dutch
+belize	english
+benin	french
+bhutan	dzongkha
+bolivia	spanish
+bosnia and herzegovina	bosnian, croatian, serbian
+botswana	english
+brazil	portuguese
+brunei	malay
+bulgaria	bulgarian
+burkina faso	french
+burma	myanmar (burmese)
+burundi	french
+cabo verde	portuguese
+cambodia	khmer
+cameroon	french, english
+canada	french, english
+central african republic	french
+chad	french, arabic
+chile	spanish
+china	chinese (simplified)
+colombia	spanish
+comoros	arabic, french
+congo brazzaville	french
+congo kinshasa	french, swahili
+costa rica	spanish
+cote d'ivoire	french
+croatia	croatian
+cuba	spanish
+cyprus	greek, turkish
+czechia	czech
+denmark	danish
+diamond princess	
+djibouti	french, arabic
+dominica	english
+dominican republic	spanish
+ecuador	spanish
+egypt	arabic
+el salvador	spanish
+equatorial guinea	spanish, french
+eritrea	arabic
+estonia	estonian
+eswatini	swazi
+ethiopia	amharic
+fiji	english, hindi
+finland	finnish
+france	french
+gabon	french
+gambia	english
+georgia	georgian
+germany	german
+ghana	english
+greece	greek
+grenada	english
+guatemala	spanish
+guinea	french
+guinea-bissau	portuguese
+guyana	english
+haiti	haitian creole, french
+holy see	italian, latin
+honduras	spanish
+hungary	hungarian
+iceland	icelandic
+india	hindi, english, bengali, gujarati, malayalam, marathi, punjabi, tamil, telugu, urdu, kannada, sindhi
+indonesia	indonesian
+iran	persian
+iraq	arabic, kurdish (kurmanji), armenian
+ireland	english, irish 
+israel	hebrew, arabic, english
+italy	italian
+jamaica	english
+japan	japanese
+jordan	arabic
+kazakhstan	kazakh, russian
+kenya	english, swahili
+kiribati	english
+korea, north	korean
+korea, south	korean
+kosovo	albanian, serbian
+kuwait	arabic
+kyrgyzstan	kyrgyz, russian
+laos	lao
+latvia	latvian, russian
+lebanon	arabic
+lesotho	english, sesotho
+liberia	english
+libya	arabic
+liechtenstein	german
+lithuania	lithuanian
+luxembourg	luxembourgish, french, german
+madagascar	malagasy, french
+malawi	chichewa
+malaysia	malay
+maldives	dhivehi
+mali	french
+malta	maltese, english
+marshall islands	english
+martinique	french
+mauritania	arabic, french
+mauritius	english, french
+mexico	spanish
+micronesia	english
+moldova	romanian
+monaco	french
+mongolia	mongolian
+montenegro	albanian, bosnian, croatian, serbian
+morocco	arabic
+mozambique	portuguese, swahili
+namibia	afrikaans, german, english
+nauru	nauruan
+nepal	nepali
+netherlands	dutch, frisian
+new zealand	english, maori
+nicaragua	spanish
+niger	french, hausa
+nigeria	english, hausa, yoruba, igbo
+north macedonia	macedonian, albanian
+norway	norwegian
+oman	arabic
+pakistan	punjabi, urdu
+palau	palauan
+palestinian state (proposed)	arabic, hebrew, english
+panama	spanish
+papua new guinea	english
+paraguay	spanish
+peru	spanish
+philippines	filipino, english
+poland	polish
+portugal	portuguese
+qatar	arabic
+romania	romanian
+russia	russian
+rwanda	swahili, french, english
+saint kitts and nevis	english
+saint lucia	english, french
+saint vincent and the grenadines	english, french
+samoa	samoan, english
+san marino	italian
+são tomé and príncipe	portuguese
+saudi arabia	arabic
+senegal	french
+serbia	serbian
+seychelles	english, french
+sierra leone	english
+singapore	chinese (simplified), malay, tamil, english
+slovakia	slovak
+slovenia	slovenian
+solomon islands	english
+somalia	somali
+south africa	afrikaans, english, sesotho, xhosa, zulu
+south sudan	english, arabic
+spain	basque, catalan, galician, spanish
+sri lanka	sinhala, tamil
+st. kitts and nevis	english
+sudan	arabic
+suriname	dutch
+sweden	swedish
+switzerland	german, french, italian
+syria	arabic, turkish, armenian
+taiwan	chinese (traditional)
+tajikistan	tajik
+tanzania	swahili, english
+thailand	thai
+timor-leste	portuguese
+togo	french
+tonga	tongan
+trinidad and tobago	english
+tunisia	arabic, french
+turkey	turkish
+turkmenistan	russian, uzbek
+tuvalu	english
+uganda	swahili, english
+ukraine	ukrainian, russian
+united arab emirates	arabic
+united kingdom	english, welsh, scots gaelic
+uruguay	spanish
+us	english
+uzbekistan	uzbek, russian
+vanuatu	english, french
+venezuela	spanish
+vietnam	vietnamese
+west bank and gaza	arabic
+western sahara (proposed state)	arabic
+yemen	arabic
+zambia	english
+zimbabwe	english, shona, sesotho, xhosa
