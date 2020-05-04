@@ -51,17 +51,17 @@ def _format_html_response(source_text, translated_text, source_iso, translated_i
     # maintain whitespace for all lines
     for i, line in enumerate(source_text):
         if source_iso[i] in direction_rtl:
-            f_source_text.append('<div style="white-space: pre; \
+            f_source_text.append('<div style="overflow-wrap: break-word;word-break: break-word; white-space: pre; \
             text-align:right;direction:rtl">' + line + '</div>')
         else:
-            f_source_text.append('<div style="white-space: pre">' + line + '</div>')
+            f_source_text.append('<div style="overflow-wrap: break-word;word-break: break-word; white-space: pre">' + line + '</div>')
 
     for i, line in enumerate(translated_text):
         if translated_iso[i] in direction_rtl:
-            f_translated_text.append('<div style="white-space: pre; \
+            f_translated_text.append('<div style="overflow-wrap: break-word;word-break: break-word; white-space: pre; \
             text-align:right;direction:rtl">' + line + '</div>')
         else:
-            f_translated_text.append('<div style="white-space: pre">' + line + '</div>')
+            f_translated_text.append('<div style="overflow-wrap: break-word;word-break: break-word; white-space: pre">' + line + '</div>')
 
     return f_source_text, f_translated_text
 

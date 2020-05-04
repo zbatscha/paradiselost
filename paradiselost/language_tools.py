@@ -31,8 +31,11 @@ def getMinMaxDate():
     dates = db.session.query(Record.date).all()
     dates = [date[0].strftime("%Y-%m-%d") for date in dates]
     dates = list(set(dates))
-    minDate = min(dates)
-    maxDate = max(dates)
+    minDate = datetime.now().strftime("%Y-%m-%d")
+    maxDate = datetime.now().strftime("%Y-%m-%d")
+    if dates:
+        minDate = min(dates)
+        maxDate = max(dates)
     return {'minDate': minDate, 'maxDate': maxDate}
 
 #-----------------------------------------------------------------------
